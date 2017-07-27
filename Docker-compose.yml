@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ops:
+    build: ..
+    container_name: ops
+    volumes:
+      - /Users/swarman/test/ops_data:/app/ops
