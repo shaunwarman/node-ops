@@ -1,4 +1,4 @@
 # node-ops
 A simple node process ops event logger
 
-![](opz-plz.gif)
+![](https://github.com/shaunwarman/node-ops/blob/master/ops-plz.gif)
