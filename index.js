@@ -20,7 +20,7 @@ class Ops extends EventEmitter {
   constructor(options = {}) {
     super();
 
-    this.interval = options.interval || 200;
+    this.interval = options.interval || 1000;
     this.intervalId = null;
     this.started = false;
 

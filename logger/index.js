@@ -3,6 +3,7 @@ const FS = require('fs');
 const {
   IS_BUFFER,
   BUFFER_LIMIT,
+  FILE_PATH,
   TO_FILE
 } = process.env;
 
@@ -15,8 +16,6 @@ const defaults = {
 
 class Logger {
   constructor(options = {}) {
-    super();
-
     this.buffer = options.buffer || defaults.buffer;
     this.bufferLimit = options.bufferLimit || defaults.bufferLimit;
     this.file = options.file || defaults.file;
